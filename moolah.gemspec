@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = Moolah::VERSION
   spec.authors       = ["Mario Visic"]
   spec.email         = ["mario@mariovisic.com"]
-  spec.summary       = %q{TODO: Write a short summary. Required.}
-  spec.description   = %q{TODO: Write a longer description. Optional.}
-  spec.homepage      = ""
+  spec.summary       = 'API wrapper for moolah.io'
+  spec.description   = 'An API wrapper for the moolah.io online cryptocurrency merchant gateway'
+  spec.homepage      = ''
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
@@ -20,4 +20,5 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency "bundler", "~> 1.5"
   spec.add_development_dependency "rake"
+  spec.add_development_dependency "rspec"
 end
